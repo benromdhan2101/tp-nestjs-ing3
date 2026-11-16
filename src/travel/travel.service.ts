@@ -6,6 +6,7 @@ import { UpdateTravelDto } from './dto/update-travel.dto';
 @Injectable()
 export class TravelService {
 
+  // List of available trips
   private trips = [
     { id: 1, name: 'To China', price: 9000 },
     { id: 2, name: 'To Morocco', price: 4000 },
